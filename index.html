@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Personal Portfolio Website Design | Codehal</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <a href="#" class="logo">Portfolio</a>
+        </div>
+        
+        <div class="col d-flex justify-content-end">
+          <i class='bx bx-menu' id="menu-icon"></i>
+          
+          <nav class="navbar">
+            <div class="nav-links">
+              <a href="#home" class="active">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+              <a href="Kaur Ji Resume.pdf">Resume</a>
+            </div>
+            
+            <div class="toggle-btn ms-3">
+              <input type="checkbox" id="checkbox">
+              <label for="checkbox" class="toggle-label">
+                <span class="toggle-ball"></span>
+              </label>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Geet Kaur</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm a web Designer with extensive experience for over 3 years.<br>
+              Expertise is to create and website design, Frontend design, and many more...</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/share/1XAreCE6iR/"><i class='bx bxl-facebook'></i></a>
+              <a href="https://github.com/Geet2004kaur"><i class='bx bxl-github'></i></a>
+              <a href="https://www.instagram.com/official.geet__?igsh=OHM3M3lhNXF0aDl2"><i class='bx bxl-instagram-alt'></i></a>
+              <a href="https://www.linkedin.com/in/geet-kaur"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">More About Me</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+          <div class="image-container">
+            <div class="home-img">
+              <img src="images/img1.jpeg" alt="Profile Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="about-img text-center">
+            <img src="images/img1.jpeg" alt="Profile Image" class="img-fluid">
+          </div>
+        </div>
+        
+        <div class="col-lg-7">
+          <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Front-End Developer!</h3>
+            <p>I'm a passionate Front-End Developer with a keen eye for design and a love
+              for crafting seamless user experiences. With expertise in HTML, CSS, JavaScript,
+              and modern frameworks like React, I build responsive, interactive, and visually appealing web applications.</p>
+            <p>I thrive on turning complex ideas into intuitive, pixel-perfect interfaces while
+              ensuring top-notch performance and accessibility. Always eager to learn and stay
+              updated with the latest web technologies, I bring creativity and problem-solving skills to every project.</p>
+            <a href="#" class="btn">More About Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services section design -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="heading text-center">My <span>Services</span></h2>
+      
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="services-box h-100">
+            <i class='bx bx-code-alt'></i>
+            <h3>UI/UX Design</h3>
+            <p>I create intuitive, user-friendly, and visually stunning designs that enhance user experience and engagement. 
+              From wireframing to prototyping, I ensure every interface is crafted with usability and aesthetics in mind.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="services-box h-100">
+            <i class="fa-solid fa-crop-simple"></i>
+            <h3>Web Design</h3>
+            <p>I design stunning, modern, and user-friendly websites that captivate audiences and enhance brand presence.
+              By blending aesthetics with functionality, I create responsive and high-performing websites tailored to your needs.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="services-box h-100">
+            <i class="fa-brands fa-apple"></i>
+            <h3>App Design</h3>
+            <p>I craft intuitive, visually appealing, and user-friendly app designs that deliver seamless experiences across all devices.
+              My designs prioritize usability, aesthetics, and functionality to keep users engaged and enhance app performance.</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section design -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="heading text-center mb-5">My <span>Skills</span></h2>
+      
+      <div class="row">
+        <div class="col-lg-6 mb-5">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body p-4">
+              <h3 class="heading1 mb-4 text-center">Technical Skills</h3>
+              <div class="Technical-bars">
+                <div class="bar mb-4">
+                  <div class="d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <i style="color: #c95d2e; font-size: 1.5rem;" class='bx bxl-html5 me-2'></i>
+                      <div class="info">
+                        <span>HTML</span>
+                      </div>
+                    </div>
+                    <span class="badge bg-primary">90%</span>
+                  </div>
+                  <div class="progress" style="height: 8px;">
+                    <div class="progress-line html">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bar mb-4">
+                  <div class="d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <i style="color: #147bbc; font-size: 1.5rem;" class="fa-brands fa-css3-alt me-2"></i>
+                      <div class="info">
+                        <span>CSS</span>
+                      </div>
+                    </div>
+                    <span class="badge bg-primary">60%</span>
+                  </div>
+                  <div class="progress" style="height: 8px;">
+                    <div class="progress-line css">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bar mb-4">
+                  <div class="d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <i style="color: #b0bc1e; font-size: 1.5rem;" class="fa-brands fa-js me-2"></i>
+                      <div class="info">
+                        <span>Javascript</span>
+                      </div>
+                    </div>
+                    <span class="badge bg-primary">85%</span>
+                  </div>
+                  <div class="progress" style="height: 8px;">
+                    <div class="progress-line Javascript">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bar mb-4">
+                  <div class="d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <i style="color: #c32ec9; font-size: 1.5rem;" class="fa-brands fa-python me-2"></i>
+                      <div class="info">
+                        <span>Python</span>
+                      </div>
+                    </div>
+                    <span class="badge bg-primary">90%</span>
+                  </div>
+                  <div class="progress" style="height: 8px;">
+                    <div class="progress-line Python">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bar mb-4">
+                  <div class="d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <i style="color: #69bcbc; font-size: 1.5rem;" class="fa-brands fa-react me-2"></i>
+                      <div class="info">
+                        <span>React</span>
+                      </div>
+                    </div>
+                    <span class="badge bg-primary">90%</span>
+                  </div>
+                  <div class="progress" style="height: 8px;">
+                    <div class="progress-line react">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-5">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body p-4">
+              <h3 class="heading1 mb-4 text-center">Professional Skills</h3>
+              
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="radial-bars text-center">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                      <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                      <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                  <div class="radial-bars text-center">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                      <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                      <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Communication</div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                  <div class="radial-bars text-center">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                      <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                      <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                  <div class="radial-bars text-center">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                      <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                      <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Teamwork</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- portfolio section design -->
+  <section class="portfolio py-5" id="portfolio">
+    <div class="container">
+      <h2 class="heading text-center mb-5">Latest <span>Project</span></h2>
+      
+      <div class="row mb-5">
+        <div class="col-lg-8 col-md-10 mx-auto text-center">
+          <p class="lead">Showcasing my recent work and projects that demonstrate my skills and expertise in web development and design.</p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow h-100 border-0 overflow-hidden">
+            <div class="portfolio-box">
+              <img src="images/Flowtrist.jpg" alt="Flower Blog Project" class="img-fluid card-img-top">
+              <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <a href="#" class="btn btn-sm btn-light rounded-circle"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Flower Blog</h5>
+              <div class="project-description">
+                <p class="card-text">"Welcome to My Flower Blog – where every petal tells a story."
+                  "Dive into the colorful world of blooms, beauty, and botanical wonders."</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow h-100 border-0 overflow-hidden">
+            <div class="portfolio-box">
+              <img src="images/calculator.png" alt="Calculator Project" class="img-fluid card-img-top">
+              <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <a href="#" class="btn btn-sm btn-light rounded-circle"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Calculator App</h5>
+              <div class="project-description">
+                <p class="card-text">A simple calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+                  Designed with a user-friendly interface.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                </div>
+                <small class="text-muted">12 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow h-100 border-0 overflow-hidden">
+            <div class="portfolio-box">
+              <img src="images/medival insurance.jpg" alt="Medical Insurance Project" class="img-fluid card-img-top">
+              <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <a href="#" class="btn btn-sm btn-light rounded-circle"><i class='bx bx-link-external'></i></a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Medical Insurance</h5>
+              <div class="project-description">
+                <p class="card-text">Predicts medical insurance premiums using machine learning based on user data like age, BMI, and smoking status.
+                  Uses regression algorithms to estimate costs.</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                </div>
+                <small class="text-muted">15 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section design -->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <h2 class="heading text-center">Contact <span>Me!</span></h2>
+      
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form action="#" class="contact-form">
+            <div class="row mb-4">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <input type="text" placeholder="Full Name" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <input type="email" placeholder="Email Address" class="form-control">
+              </div>
+            </div>
+            
+            <div class="row mb-4">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <input type="number" placeholder="Mobile Number" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <input type="text" placeholder="Email Subject" class="form-control">
+              </div>
+            </div>
+            
+            <div class="mb-4">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="form-control"></textarea>
+            </div>
+            
+            <div class="text-center">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer design -->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="footer-text">Copyright &copy; 2025 by Geet | All Rights Reserved.</div>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+          <div class="footer-iconTop">
+            <a href="#home" class="back-to-top"><i class='bx bx-up-arrow-alt'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- custom js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
